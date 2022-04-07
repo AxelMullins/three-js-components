@@ -6,7 +6,7 @@ import model from "../assets/crab.3mf";
 const Model = () => {
   const geometry = useLoader(ThreeMFLoader, model);
   return (
-    <group rotation={[200, 0, 0]} position={[0, -1.5, 0]} >
+    <group rotation={[5, 0, 0]} position={[0, -1.5, 0]} >
         <primitive object={geometry} />;
     </group>
   )};

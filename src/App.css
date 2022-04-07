@@ -6,5 +6,8 @@
 
 .three-scene-container {
   height: 100vh;
+  background: url(./assets/1.jpg);
+  background-position: center;
+  background-size: cover;
   overflow: hidden;
 }
