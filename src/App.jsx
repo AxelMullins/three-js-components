@@ -9,11 +9,11 @@ import MyForm from "./components/MyForm";
 function App() {
   return (
     <Container fluid>
-      <Row className="three-scene-container py-5">
+      <Row className="three-scene-container">
         <Col xs="4" className="align-self-center d-none d-md-block">
           <MyForm />
         </Col>
-        <Col xs="12" md="8">
+        <Col xs="12" md="8" className="p-0">
           <ThreeScene className="three-scene">
             <ambientLight intensity={0.6} />
             <directionalLight intensity={0.5} />
